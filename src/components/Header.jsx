@@ -22,7 +22,7 @@ const Header = () => {
         </button>
       </div>
       <h1 className=" text-2xl font-bold">Prathmesh Umberkar</h1>
-      <p className=" text-neutral-400">
+      <p className=" text-neutral-300">
         I'm versatile front-end developer, I am dedicated to continual
         improvement and thrive on tackling new challenges. I am driven by a
         passion for crafting innovative, user-centric products.
