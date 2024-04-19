@@ -3,9 +3,9 @@ import { MdArrowOutward } from "react-icons/md";
 const ProjectCard = ({
   id,
   name,
-  live_link,
+  liveLink,
   github,
-  tech_stack,
+  techStack,
   description,
 }) => {
   return (
@@ -14,7 +14,7 @@ const ProjectCard = ({
       <p className=" text-sm text-neutral-400">{description}</p>
 
       <div className="flex gap-1 flex-wrap">
-        {tech_stack.map((tech, i) => (
+        {techStack.map((tech, i) => (
           <div
             key={i}
             className=" bg-neutral-700 rounded p-1 text-xs text-neutral-400 "
@@ -25,8 +25,8 @@ const ProjectCard = ({
       </div>
 
       {/* buttons */}
-      <div className="flex w-full justify-between md:flex-col lg:flex-row">
-        <a href={live_link} target="_blank" rel="noopener noreferrer">
+      <div className="flex w-full justify-between flex-col lg:flex-row">
+        <a href={liveLink} target="_blank" rel="noopener noreferrer">
           <div className="flex items-center p-2 text-sm font-medium underline hover:text-blue-400 transition-all ease-in duration-200">
             Live Link <MdArrowOutward size={20} />
           </div>

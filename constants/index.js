@@ -2,17 +2,24 @@ const projects = [
   {
     id: 1,
     name: "Spotify Clone",
-    live_link: "https://spotify-clone-sooty-nine.vercel.app",
+    liveLink: "https://spotify-clone-sooty-nine.vercel.app",
     github: "https://github.com/prthmh/spotify_clone",
-    tech_stack: ["Next JS", "React JS", "Tailwind CSS", "Supabase", "React Hook Form", "Radix UI"],
+    techStack: [
+      "Next JS",
+      "React JS",
+      "Tailwind CSS",
+      "Supabase",
+      "React Hook Form",
+      "Radix UI",
+    ],
     description: `A spotify clone, where users can upload their own songs, can like a song and add it to their playlist`,
   },
   {
     id: 2,
     name: "ChirpBox",
-    live_link: "https://chirpbox.netlify.app/",
+    liveLink: "https://chirpbox.netlify.app/",
     github: "https://github.com/prthmh/ChirpBox",
-    tech_stack: [
+    techStack: [
       "JavaScript",
       "React JS",
       "MockBee",
@@ -25,9 +32,9 @@ const projects = [
   {
     id: 3,
     name: "RupiyaTrackr",
-    live_link: "https://rupiyatrackr.netlify.app/",
+    liveLink: "https://rupiyatrackr.netlify.app/",
     github: "https://github.com/prthmh/RupiyaTrackr",
-    tech_stack: [
+    techStack: [
       "JavaScript",
       "React JS",
       "Redux with Redux Thunk",
@@ -41,9 +48,9 @@ const projects = [
   {
     id: 4,
     name: "Voom",
-    live_link: "https://voom-inky.vercel.app/",
+    liveLink: "https://voom-inky.vercel.app/",
     github: "https://github.com/prthmh/zoom-clone",
-    tech_stack: [
+    techStack: [
       "Next JS",
       "React JS",
       "TypeScript",
@@ -57,17 +64,17 @@ const projects = [
   {
     id: 5,
     name: "Appointo",
-    live_link: "https://appointment-booking-screen.netlify.app/",
+    liveLink: "https://appointment-booking-screen.netlify.app/",
     github: "https://github.com/prthmh/appointment_booking",
-    tech_stack: ["JavaScript", "React JS", "React Hot Toast", "React Icons"],
+    techStack: ["JavaScript", "React JS", "React Hot Toast", "React Icons"],
     description: `A dynamic appointment booking screen using React. On selecteing a date from calender and time-slot user will get atoast message.`,
   },
   {
     id: 6,
     name: "ChocoCart",
-    live_link: "https://chococart.netlify.app/",
+    liveLink: "https://chococart.netlify.app/",
     github: "https://github.com/prthmh/ChocoCart",
-    tech_stack: [
+    techStack: [
       "JavaScript",
       "React JS",
       "MockBee",
@@ -79,4 +86,23 @@ const projects = [
   },
 ];
 
-export default projects;
+const skills = [
+  "JavaScript",
+  "TypeScript",
+  "HTML",
+  "CSS",
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "Node.js",
+  "Redux Toolkit",
+  "Express.js",
+  "MongoDB",
+  "Mongoose",
+  "Git",
+  "GitHub",
+  "Shadcn UI",
+  "Python",
+];
+
+export { projects, skills };
