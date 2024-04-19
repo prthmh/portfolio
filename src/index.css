@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-neutral-950; 
+  @apply bg-[url('/public/grid-1.webp')]
+}
+
 @layer utilities {
   .custom-link {
-    @apply text-neutral-400 underline flex items-center gap-[2px] hover:text-blue-400 transition duration-500;
+    @apply text-neutral-400 underline flex items-center gap-[2px] hover:text-blue-400 transition-all ease-in duration-200;
   }
 }
