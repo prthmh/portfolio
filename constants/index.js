@@ -48,7 +48,7 @@ const projects = [
   {
     id: 4,
     name: "Voom",
-    liveLink: "https://voom-inky.vercel.app/",
+    liveLink: "https://voom-zoom-clone.vercel.app/",
     github: "https://github.com/prthmh/zoom-clone",
     techStack: [
       "Next JS",
