@@ -4,7 +4,7 @@
 
 body {
   @apply bg-neutral-950; 
-  @apply bg-[url('/public/grid-1.webp')]
+  @apply bg-[url('/grid-1.webp')]
 }
 
 @layer utilities {

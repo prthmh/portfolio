@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex justify-between items-center mb-4">
         <div className=" rounded-full size-[60px] sm:size-[130px] overflow-hidden p-[5px] border-2 border-neutral-300">
           <img
-            src="/public/profile_pic-3.jpg"
+            src="/profile_pic-3.jpg"
             alt="Profile pic"
             className="size-full aspect-auto rounded-full"
           />
