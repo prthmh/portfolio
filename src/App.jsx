@@ -11,6 +11,18 @@ function App() {
         {/* <hr className=" border-neutral-500 opacity-30 my-8" /> */}
         <Projects />
         <TechStack />
+        <h2 className="text-center mt-10 text-base text-neutral-300 font-medium">
+          Designed and Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/prathmesh-umberkar-31220216a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className=" text-blue-400 hover:underline">
+              Prathmesh Umberkar
+            </span>
+          </a>
+        </h2>
       </div>
     </div>
   );

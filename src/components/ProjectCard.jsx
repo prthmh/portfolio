@@ -27,13 +27,11 @@ const ProjectCard = ({
       {/* buttons */}
       <div className="flex w-full justify-between flex-col lg:flex-row">
         <a href={liveLink} target="_blank" rel="noopener noreferrer">
-          {/* <div className="flex items-center p-2 text-sm font-medium underline hover:text-blue-400 transition-all ease-in duration-200"> */}
           <div className="custom-link-light ">
             Live Link <MdArrowOutward size={20} />
           </div>
         </a>
         <a href={github} target="_blank" rel="noopener noreferrer">
-          {/* <div className="flex items-cente p-2 text-sm font-medium underline hover:text-blue-400 transition-all ease-in duration-200"> */}
           <div className="custom-link-light">
             Source Code <MdArrowOutward size={20} />
           </div>
